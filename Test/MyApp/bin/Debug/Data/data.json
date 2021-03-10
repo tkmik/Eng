@@ -1,0 +1,1046 @@
+[
+  {
+    "verb_id": 1,
+    "infinitive": "be",
+    "past_simple": "was/were",
+    "past_participle": "been",
+    "translation": "быть",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 2,
+    "infinitive": "become",
+    "past_simple": "became",
+    "past_participle": "become",
+    "translation": "становиться",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 3,
+    "infinitive": "begin",
+    "past_simple": "began",
+    "past_participle": "begun",
+    "translation": "начинать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 4,
+    "infinitive": "bite",
+    "past_simple": "bit",
+    "past_participle": "bitten",
+    "translation": "кусать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 5,
+    "infinitive": "break",
+    "past_simple": "broke",
+    "past_participle": "broken",
+    "translation": "ломать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 6,
+    "infinitive": "bring",
+    "past_simple": "brought",
+    "past_participle": "brought",
+    "translation": "приносить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 7,
+    "infinitive": "build",
+    "past_simple": "built",
+    "past_participle": "built",
+    "translation": "строить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 8,
+    "infinitive": "buy",
+    "past_simple": "bought",
+    "past_participle": "bought",
+    "translation": "покупать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 9,
+    "infinitive": "catch",
+    "past_simple": "caught",
+    "past_participle": "caught",
+    "translation": "ловить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 10,
+    "infinitive": "choose",
+    "past_simple": "chose",
+    "past_participle": "chosen",
+    "translation": "выбирать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 11,
+    "infinitive": "come",
+    "past_simple": "came",
+    "past_participle": "come",
+    "translation": "приходить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 12,
+    "infinitive": "cost",
+    "past_simple": "cost",
+    "past_participle": "cost",
+    "translation": "стоить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 13,
+    "infinitive": "cut",
+    "past_simple": "cut",
+    "past_participle": "cut",
+    "translation": "резать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 14,
+    "infinitive": "do",
+    "past_simple": "did",
+    "past_participle": "done",
+    "translation": "делать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 15,
+    "infinitive": "draw",
+    "past_simple": "drew",
+    "past_participle": "drawn",
+    "translation": "рисовать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 16,
+    "infinitive": "drink",
+    "past_simple": "drank",
+    "past_participle": "drunk",
+    "translation": "пить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 17,
+    "infinitive": "drive",
+    "past_simple": "drove",
+    "past_participle": "driven",
+    "translation": "водить(машину)",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 18,
+    "infinitive": "eat",
+    "past_simple": "ate",
+    "past_participle": "eaten",
+    "translation": "есть",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 19,
+    "infinitive": "fall",
+    "past_simple": "fell",
+    "past_participle": "fallen",
+    "translation": "падать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 20,
+    "infinitive": "feel",
+    "past_simple": "felt",
+    "past_participle": "felt",
+    "translation": "чувствовать себя",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 21,
+    "infinitive": "fight",
+    "past_simple": "fought",
+    "past_participle": "fought",
+    "translation": "сражаться",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 22,
+    "infinitive": "find",
+    "past_simple": "found",
+    "past_participle": "found",
+    "translation": "находить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 23,
+    "infinitive": "fly",
+    "past_simple": "flew",
+    "past_participle": "flown",
+    "translation": "летать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 24,
+    "infinitive": "forget",
+    "past_simple": "forgot",
+    "past_participle": "forgotten",
+    "translation": "забывать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 25,
+    "infinitive": "get",
+    "past_simple": "got",
+    "past_participle": "got",
+    "translation": "получать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 26,
+    "infinitive": "give",
+    "past_simple": "gave",
+    "past_participle": "given",
+    "translation": "давать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 27,
+    "infinitive": "go",
+    "past_simple": "went",
+    "past_participle": "gone/been",
+    "translation": "идти",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 28,
+    "infinitive": "grow",
+    "past_simple": "grew",
+    "past_participle": "grown",
+    "translation": "расти",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 29,
+    "infinitive": "have",
+    "past_simple": "had",
+    "past_participle": "had",
+    "translation": "иметь",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 30,
+    "infinitive": "hear",
+    "past_simple": "heard",
+    "past_participle": "heard",
+    "translation": "слышать/услышать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 31,
+    "infinitive": "hit",
+    "past_simple": "hit",
+    "past_participle": "hit",
+    "translation": "ударить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 33,
+    "infinitive": "hold",
+    "past_simple": "held",
+    "past_participle": "held",
+    "translation": "держать/проводить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 34,
+    "infinitive": "hurt",
+    "past_simple": "hurt",
+    "past_participle": "hurt",
+    "translation": "ранить/повреждать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 35,
+    "infinitive": "keep",
+    "past_simple": "kept",
+    "past_participle": "kept",
+    "translation": "держать/хранить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 36,
+    "infinitive": "know",
+    "past_simple": "knew",
+    "past_participle": "known",
+    "translation": "знать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 37,
+    "infinitive": "learn",
+    "past_simple": "learnt",
+    "past_participle": "learnt",
+    "translation": "учиться/учить что-то",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 38,
+    "infinitive": "leave",
+    "past_simple": "left",
+    "past_participle": "left",
+    "translation": "покидать/уезжать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 39,
+    "infinitive": "lend",
+    "past_simple": "lent",
+    "past_participle": "lent",
+    "translation": "давать в долг/предоставлять",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 40,
+    "infinitive": "let",
+    "past_simple": "let",
+    "past_participle": "let",
+    "translation": "позволять",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 41,
+    "infinitive": "lose",
+    "past_simple": "lost",
+    "past_participle": "lost",
+    "translation": "терять",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 42,
+    "infinitive": "make",
+    "past_simple": "made",
+    "past_participle": "made",
+    "translation": "сделать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 43,
+    "infinitive": "meet",
+    "past_simple": "met",
+    "past_participle": "met",
+    "translation": "встретить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 44,
+    "infinitive": "pay",
+    "past_simple": "paid",
+    "past_participle": "paid",
+    "translation": "платить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 45,
+    "infinitive": "put",
+    "past_simple": "put",
+    "past_participle": "put",
+    "translation": "класть/вставлять",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 46,
+    "infinitive": "read",
+    "past_simple": "read",
+    "past_participle": "read",
+    "translation": "читать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 47,
+    "infinitive": "run",
+    "past_simple": "ran",
+    "past_participle": "run",
+    "translation": "бежать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 48,
+    "infinitive": "say",
+    "past_simple": "said",
+    "past_participle": "said",
+    "translation": "сказать что-то",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 49,
+    "infinitive": "see",
+    "past_simple": "saw",
+    "past_participle": "seen",
+    "translation": "видеть/увидеть",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 50,
+    "infinitive": "sell",
+    "past_simple": "sold",
+    "past_participle": "sold",
+    "translation": "продавать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 51,
+    "infinitive": "send",
+    "past_simple": "sent",
+    "past_participle": "sent",
+    "translation": "послать/отправлять",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 52,
+    "infinitive": "show",
+    "past_simple": "showed",
+    "past_participle": "shown",
+    "translation": "показать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 53,
+    "infinitive": "sing",
+    "past_simple": "sang",
+    "past_participle": "sung",
+    "translation": "петь",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 54,
+    "infinitive": "sit",
+    "past_simple": "sat",
+    "past_participle": "sat",
+    "translation": "сидеть",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 55,
+    "infinitive": "sleep",
+    "past_simple": "slept",
+    "past_participle": "slept",
+    "translation": "спать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 56,
+    "infinitive": "smell",
+    "past_simple": "smelt",
+    "past_participle": "smelt",
+    "translation": "пахнуть/нюхать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 57,
+    "infinitive": "speak",
+    "past_simple": "spoke",
+    "past_participle": "spoken",
+    "translation": "говорить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 58,
+    "infinitive": "spend",
+    "past_simple": "spent",
+    "past_participle": "spent",
+    "translation": "тратить/проводить время",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 59,
+    "infinitive": "stand",
+    "past_simple": "stood",
+    "past_participle": "stood",
+    "translation": "стоять",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 60,
+    "infinitive": "swim",
+    "past_simple": "swam",
+    "past_participle": "swum",
+    "translation": "плавать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 61,
+    "infinitive": "take",
+    "past_simple": "took",
+    "past_participle": "taken",
+    "translation": "взять/брать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 62,
+    "infinitive": "teach",
+    "past_simple": "taught",
+    "past_participle": "taught",
+    "translation": "учить/обучать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 63,
+    "infinitive": "tell",
+    "past_simple": "told",
+    "past_participle": "told",
+    "translation": "рассказывать/говорить кому-то",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 64,
+    "infinitive": "think",
+    "past_simple": "thought",
+    "past_participle": "thought",
+    "translation": "думать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 65,
+    "infinitive": "throw",
+    "past_simple": "threw",
+    "past_participle": "thrown",
+    "translation": "бросать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 66,
+    "infinitive": "understand",
+    "past_simple": "understood",
+    "past_participle": "understood",
+    "translation": "понимать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 67,
+    "infinitive": "wake",
+    "past_simple": "woke",
+    "past_participle": "woken",
+    "translation": "просыпаться/будить",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 68,
+    "infinitive": "wear",
+    "past_simple": "wore",
+    "past_participle": "worn",
+    "translation": "носить(одежду)",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 69,
+    "infinitive": "win",
+    "past_simple": "won",
+    "past_participle": "won",
+    "translation": "победить/выиграть",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 70,
+    "infinitive": "write",
+    "past_simple": "wrote",
+    "past_participle": "written",
+    "translation": "писать",
+    "number_of_group": 1,
+    "is_known": false
+  },
+  {
+    "verb_id": 71,
+    "infinitive": "beat",
+    "past_simple": "beat",
+    "past_participle": "beaten",
+    "translation": "бить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 72,
+    "infinitive": "bend",
+    "past_simple": "bent",
+    "past_participle": "bent",
+    "translation": "гнуться",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 73,
+    "infinitive": "blow",
+    "past_simple": "blew",
+    "past_participle": "blown",
+    "translation": "дуть/подуть",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 74,
+    "infinitive": "burn",
+    "past_simple": "burnt",
+    "past_participle": "burnt",
+    "translation": "гореть/жечь что-то",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 75,
+    "infinitive": "burst",
+    "past_simple": "burst",
+    "past_participle": "burst",
+    "translation": "разразиться/взорваться",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 76,
+    "infinitive": "can",
+    "past_simple": "could",
+    "past_participle": "been able",
+    "translation": "мочь/уметь",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 77,
+    "infinitive": "deal",
+    "past_simple": "dealt",
+    "past_participle": "dealt",
+    "translation": "иметь дело",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 78,
+    "infinitive": "dig",
+    "past_simple": "dug",
+    "past_participle": "dug",
+    "translation": "копать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 79,
+    "infinitive": "dream",
+    "past_simple": "dreamt",
+    "past_participle": "dreamt",
+    "translation": "мечтать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 80,
+    "infinitive": "feed",
+    "past_simple": "fed",
+    "past_participle": "fed",
+    "translation": "кормить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 81,
+    "infinitive": "fit",
+    "past_simple": "fit",
+    "past_participle": "fit",
+    "translation": "подходить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 82,
+    "infinitive": "foresee",
+    "past_simple": "foresaw",
+    "past_participle": "foreseen",
+    "translation": "предвидеть",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 83,
+    "infinitive": "forgive",
+    "past_simple": "forgave",
+    "past_participle": "forgiven",
+    "translation": "прощать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 84,
+    "infinitive": "freeze",
+    "past_simple": "froze",
+    "past_participle": "frozen",
+    "translation": "замерзнуть/замораживать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 85,
+    "infinitive": "hang",
+    "past_simple": "hung",
+    "past_participle": "hung",
+    "translation": "висеть/повесить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 86,
+    "infinitive": "hide",
+    "past_simple": "hid",
+    "past_participle": "hidden",
+    "translation": "прятаться",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 87,
+    "infinitive": "kneel",
+    "past_simple": "knelt",
+    "past_participle": "knelt",
+    "translation": "становиться на колени",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 88,
+    "infinitive": "lay",
+    "past_simple": "laid",
+    "past_participle": "laid",
+    "translation": "класть/уложить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 89,
+    "infinitive": "lead",
+    "past_simple": "led",
+    "past_participle": "led",
+    "translation": "приводить/вести",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 90,
+    "infinitive": "lie",
+    "past_simple": "lay",
+    "past_participle": "lain",
+    "translation": "лежать/лечь",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 91,
+    "infinitive": "light",
+    "past_simple": "lit",
+    "past_participle": "lit",
+    "translation": "зажечь/осветить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 92,
+    "infinitive": "mean",
+    "past_simple": "meant",
+    "past_participle": "meant",
+    "translation": "иметь в виду/подразумевать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 93,
+    "infinitive": "misunderstand",
+    "past_simple": "misunderstood",
+    "past_participle": "misunderstood",
+    "translation": "не првильно понять",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 94,
+    "infinitive": "overcome",
+    "past_simple": "overcame",
+    "past_participle": "overcome",
+    "translation": "преодолевать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 95,
+    "infinitive": "overeat",
+    "past_simple": "overate",
+    "past_participle": "overeaten",
+    "translation": "переедать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 96,
+    "infinitive": "overpay",
+    "past_simple": "overpaid",
+    "past_participle": "overpaid",
+    "translation": "переплачивать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 97,
+    "infinitive": "oversleep",
+    "past_simple": "overslept",
+    "past_participle": "overslept",
+    "translation": "проспать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 98,
+    "infinitive": "redo",
+    "past_simple": "redid",
+    "past_participle": "redone",
+    "translation": "переделать что-то",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 99,
+    "infinitive": "ride",
+    "past_simple": "rode",
+    "past_participle": "ridden",
+    "translation": "ездить верхом/кататься",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 100,
+    "infinitive": "ring",
+    "past_simple": "rang",
+    "past_participle": "rung",
+    "translation": "звонить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 101,
+    "infinitive": "rise",
+    "past_simple": "rose",
+    "past_participle": "risen",
+    "translation": "подняться/вставать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 102,
+    "infinitive": "set",
+    "past_simple": "set",
+    "past_participle": "set",
+    "translation": "устанавливать/ставить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 103,
+    "infinitive": "shake",
+    "past_simple": "shook",
+    "past_participle": "shaken",
+    "translation": "трясти",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 104,
+    "infinitive": "shine",
+    "past_simple": "shone",
+    "past_participle": "shone",
+    "translation": "светить/сиять",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 105,
+    "infinitive": "shoot",
+    "past_simple": "shot",
+    "past_participle": "shot",
+    "translation": "стрелять",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 106,
+    "infinitive": "shut",
+    "past_simple": "shut",
+    "past_participle": "shut",
+    "translation": "зыкрывать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 107,
+    "infinitive": "sink",
+    "past_simple": "sank",
+    "past_participle": "sunk",
+    "translation": "погружаться/тонуть",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 108,
+    "infinitive": "slide",
+    "past_simple": "slid",
+    "past_participle": "slid",
+    "translation": "скользить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 109,
+    "infinitive": "spill",
+    "past_simple": "spilt",
+    "past_participle": "spilt",
+    "translation": "проливать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 110,
+    "infinitive": "spoil",
+    "past_simple": "spoilt",
+    "past_participle": "spoilt",
+    "translation": "портить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 111,
+    "infinitive": "steal",
+    "past_simple": "stole",
+    "past_participle": "stolen",
+    "translation": "украсть/воровать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 112,
+    "infinitive": "stick",
+    "past_simple": "stuck",
+    "past_participle": "stuck",
+    "translation": "уколоть/приклеивать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 113,
+    "infinitive": "sting",
+    "past_simple": "stung",
+    "past_participle": "stung",
+    "translation": "жалить/ужалить",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 114,
+    "infinitive": "sweep",
+    "past_simple": "swept",
+    "past_participle": "swept",
+    "translation": "мести/промчаться",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 115,
+    "infinitive": "tear",
+    "past_simple": "tore",
+    "past_participle": "torn",
+    "translation": "рвать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 116,
+    "infinitive": "underpay",
+    "past_simple": "underpaid",
+    "past_participle": "underpaid",
+    "translation": "недоплачивать",
+    "number_of_group": 2,
+    "is_known": false
+  },
+  {
+    "verb_id": 117,
+    "infinitive": "withdraw",
+    "past_simple": "withdrew",
+    "past_participle": "withdrawn",
+    "translation": "снять деньги",
+    "number_of_group": 2,
+    "is_known": false
+  }
+]

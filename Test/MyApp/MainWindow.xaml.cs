@@ -11,6 +11,8 @@ using System;
 using System.Text;
 using System.Reflection;
 using Microsoft.Win32;
+using System.Data.SqlClient;
+using MyApp.Services;
 
 namespace MyApp
 {
@@ -19,16 +21,33 @@ namespace MyApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        internal static VerbRepository repository = new VerbRepository();
+        internal static VerbRepository repository;
         public MainWindow()
         {
             InitializeComponent();        
         }
 
         private async void Window_Loaded(object sender, RoutedEventArgs e)
-        {            
-            await repository.LoadAll();         
-            VerbGrid.ItemsSource = repository.Verbs;
+        {
+            try
+            {
+                repository = new VerbRepository();
+                await repository.LoadAll();
+                VerbGrid.ItemsSource = repository.Verbs;
+            }
+            catch (SqlException)
+            {
+                try
+                {
+                    string path = AppDomain.CurrentDomain.BaseDirectory + @"\Data\data.json";
+                    string text = File.ReadAllText(path);
+                    VerbGrid.ItemsSource = JSONConverter<Verb>.Deserialize(text);
+                }
+                catch (DirectoryNotFoundException)
+                {
+                    MessageBox.Show("Something has happened with database and data!");
+                }
+            }
         }
 
         private async void SaveToDatabaseButton_Click(object sender, RoutedEventArgs e)

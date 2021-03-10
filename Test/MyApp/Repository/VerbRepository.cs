@@ -1,4 +1,5 @@
-﻿using MyContext.Context;
+﻿using MyApp.Services;
+using MyContext.Context;
 using MyContext.Models;
 using Newtonsoft.Json;
 using System;
@@ -56,19 +57,12 @@ namespace MyApp
         }
         private string Serialize()
         {
-            JsonSerializerSettings settings = new JsonSerializerSettings()
-            {
-                Formatting = Formatting.Indented                              
-            };
-            return JsonConvert.SerializeObject(Verbs, settings);
+            return JSONConverter<Verb>.Serialize(Verbs);
         }
         private IEnumerable<Verb> Deserialize(string json)
         {
-            JsonSerializerSettings settings = new JsonSerializerSettings()
-            {
-                Formatting = Formatting.Indented
-            };
-            return JsonConvert.DeserializeObject<IEnumerable<Verb>>(json, settings);
+
+            return JSONConverter<Verb>.Deserialize(json);
         }
     }
 }

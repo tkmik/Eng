@@ -87,6 +87,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Services\JSONConverter.cs" />
     <Compile Include="Models\PieChartModel.cs" />
     <Compile Include="Models\TestModel.cs" />
     <Compile Include="Repository\IRepository.cs" />
