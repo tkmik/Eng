@@ -1,18 +1,12 @@
-﻿using MyContext.Context;
-using MyContext.Models;
-using System.Data.Entity;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Collections.ObjectModel;
-using Newtonsoft.Json;
-using System.IO;
-using System;
-using System.Text;
-using System.Reflection;
-using Microsoft.Win32;
-using System.Data.SqlClient;
+﻿using Microsoft.Win32;
 using MyApp.Services;
+using MyContext.Models;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Data.SqlClient;
+using System.IO;
+using System.Windows;
 
 namespace MyApp
 {
@@ -24,7 +18,7 @@ namespace MyApp
         internal static VerbRepository repository;
         public MainWindow()
         {
-            InitializeComponent();        
+            InitializeComponent();
         }
 
         private async void Window_Loaded(object sender, RoutedEventArgs e)
@@ -53,7 +47,23 @@ namespace MyApp
         private async void SaveToDatabaseButton_Click(object sender, RoutedEventArgs e)
         {
             repository.Verbs = (ObservableCollection<Verb>)VerbGrid.ItemsSource;
-            await repository.SaveToDatabase();
+            try
+            {
+                await repository.SaveToDatabase();
+            }
+            catch (SqlException)
+            {
+                try
+                {
+                    string path = AppDomain.CurrentDomain.BaseDirectory + @"\Data\data.json";
+                    JSONConverter<Verb>.Serialize((IEnumerable<Verb>)VerbGrid.ItemsSource);
+                }
+                catch (DirectoryNotFoundException)
+                {
+                    MessageBox.Show("Something has happened with database and data!");
+                }
+
+            }
             MessageBox.Show("The Data has been saved!");
         }
         private void LoadFromJsonButton_Click(object sender, RoutedEventArgs e)
@@ -76,11 +86,11 @@ namespace MyApp
             dialog.Filter = "JSON-files|*.json";
 
             if ((bool)dialog.ShowDialog())
-            {                   
+            {
                 string text = repository.SaveToJsonFile();
                 File.WriteAllText(dialog.FileName, text);
                 MessageBox.Show($"The Data has been saved in a JSON-file!");
-            }           
+            }
         }
 
         private void SearchTextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
@@ -89,7 +99,7 @@ namespace MyApp
             if (!SearchTextBox.Text.Equals(""))
             {
                 searchResult = repository.Search(SearchTextBox.Text);
-            }            
+            }
             if ((bool)FirstTableCheckBox.IsChecked && (bool)SecondTableCheckBox.IsChecked)
             {
                 VerbGrid.ItemsSource = searchResult;
@@ -108,7 +118,7 @@ namespace MyApp
         {
             SearchTextBox_TextChanged(sender, null);
 
-        }   
+        }
         private void SecondTableCheckBox_Click(object sender, RoutedEventArgs e)
         {
             SearchTextBox_TextChanged(sender, null);
